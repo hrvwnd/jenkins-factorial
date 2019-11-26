@@ -14,4 +14,11 @@ def test_factorial_200():
 def test_reverse_factorial_120():
     assert factorial.reverse_factorial(120) == 5
 
+def test_reverse_factorial_none():
+    assert factorial.reverse_factorial(23) == "None"
+
+
+def test_reverse_factorial_24():
+    assert factorial.reverse_factorial(24) == 4
+
 
